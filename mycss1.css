@@ -1,0 +1,25 @@
+h1 {
+    color: blue;
+}
+div {
+    color: rgba(57, 19, 161, 0.411);
+    font-size: large;
+    float: left;
+
+    
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto        ;
+  border-width: medium;
+  column-gap: 1pc;
+  row-gap: 1pc;
+  size: 230mm;
+}
+
+
+  .grid-item  {
+    border-width: medium;
+    border-style:   solid;
+    border-width:thin;
+  }    
